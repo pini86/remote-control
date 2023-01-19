@@ -8,6 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "strictNullChecks": false,
+    "noImplicitAny": false,
     "skipLibCheck": true,
     "paths": {
       "dotenv": [

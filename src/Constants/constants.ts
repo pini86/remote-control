@@ -1,3 +1,11 @@
+import {
+  getMousePos,
+  moveDown,
+  moveLeft,
+  moveRight,
+  moveUp,
+} from "../Mouse/mouse";
+
 enum Commands {
   MOUSE_POSITION = "mouse_position",
   LEFT = "mouse_left",
@@ -10,4 +18,12 @@ enum Commands {
   PRNT_SCRN = "prnt_scrn",
 }
 
-export { Commands };
+const commandsMouse = {
+  [Commands.MOUSE_POSITION]: getMousePos,
+  [Commands.LEFT]: moveLeft,
+  [Commands.RIGHT]: moveRight,
+  [Commands.UP]: moveUp,
+  [Commands.DOWN]: moveDown,
+};
+
+export { Commands, commandsMouse };
