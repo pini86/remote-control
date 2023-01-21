@@ -7,6 +7,7 @@ import {
 } from "../Mouse/mouse";
 import { drawCircle } from "../Circle/circle";
 import { drawRectangle, drawSquare } from "../Square/square";
+import { screenshot } from "../Screenshot/screenshot";
 
 enum Commands {
   MOUSE_POSITION = "mouse_position",
@@ -29,7 +30,7 @@ const commandsMouse = {
   [Commands.DRAW_CIRCLE]: drawCircle,
   [Commands.DRAW_SQUARE]: drawSquare,
   [Commands.DRAW_RECTANGLE]: drawRectangle,
-  //[Commands.PRNT_SCRN]: screenshot,
+  [Commands.PRNT_SCRN]: screenshot,
 };
 
 export { Commands, commandsMouse };

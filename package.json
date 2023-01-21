@@ -19,6 +19,7 @@
   "homepage": "https://github.com/pini86/remote-control#readme",
   "dependencies": {
     "@nut-tree/nut-js": "^2.3.0",
+    "dotenv": "^16.0.3",
     "jimp": "^0.16.2",
     "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",
