@@ -21,7 +21,7 @@ const wss = new WebSocketServer(
 
 wss.on("connection", (wsconnection, req) => {
   console.log(
-    "New connection from address: ",
+    "Detect new connection from adress: ",
     req.socket.remoteAddress,
     "port: ",
     req.socket.remotePort
