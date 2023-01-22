@@ -47,15 +47,13 @@ Run the application in production mode
 npm start
 ```
 
-By default app use port 8080. You can change port in .env file (before rename it from env.example).
-
 ## How to use
 
 Use frontend for testing from [here](https://github.com/rolling-scopes-school/remote-control)
 
 Clone/download it and open http://localhost:8181/ to get user interface.
 
-By default app use port 8080. You can change port in .env file.
+By default app use port 8080. You can change port in .env file (before rename it from env.example).
 
 ## Warning!
 
